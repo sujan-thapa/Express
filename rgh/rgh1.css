@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between; 
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
+    margin-right: 40px;
+    
+}
+
+/* Mobile styles */
+.container{
+    background-color: aqua;
+}
+
+/* for mobile */
+/* Styles for screens 1300px wide or smaller */
+@media screen and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .logo{
+        margin-bottom: 10px;
+    }
+    .nav{
+        flex-direction: column; /* Stack nav links vertically */
+        gap: 5px;
+        margin: 0; /* Remove margin to avoid extra spacing on mobile */
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        background-color: red;
+        width: 70vw;
+        height: 70vh;
+        margin: 0 auto;
+        border-radius: 3%;
+    }
+}
+
+/* Tablet styles */
+/* @media screen and (min-width: 768px){
+    .container {
+        background-color: green;
+
+    }
+} */
+
+/* Desktop styles */
+/* @media screen and (max-width: 1300px){  */
+/* Sets a condition that styles within this block will only apply if the viewport width is 1300 pixels or less. */
+
+/* @media screen and (min-width: 1300px){
+    .container {
+        background-color: red;
+
+    }
+} */
