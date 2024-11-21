@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: rgb(42, 22, 22);
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}

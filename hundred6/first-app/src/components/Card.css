@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.card, img{
+    width: 20vw;
+    height: 38vh;
+}
+
+
+.card{
+    text-align: center;    
+    margin-top: 15px;
+    width: 20vw;
+    height: 250px;
+    background-color: thistle;
+    border: 2px solid black;
+}
