@@ -35,6 +35,9 @@ const Card = () => {
 
     if (loading) return <div>Loading...</div>;
     if (error) return <div>Error: {error}</div>;
+    console.log(data);
+    console.log(typeof(data));
+
 
 
 
@@ -43,7 +46,7 @@ const Card = () => {
         <>
         <div className="card">
 
-            {data.slice(0, 4).map(item => (
+            {data.map(item => (
                 <div key={item.id} className="singleCard">
                     <img
                         className="cardImage"
