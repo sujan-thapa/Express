@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar{
+    display: flex;
+    width: 100vw;
+    background-color: bisque;
+  }
+  .nav {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    padding: 23px;
+  }
+
+  .nav a{
+    text-decoration: none;
+  }
+  .red{
+    background-color: red;
+    color: white
+  }
