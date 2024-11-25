@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    width: 100vw;
+    background-color: #49a6a6;
+}
+.navList{
+    display: flex;
+    list-style: none;
+    color: black;
+    width: 100%;
+    justify-content: center;
+    gap: 74px;
+    padding: 30px;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+    gap: 20px;
+}
+
+.singleCard{
+    border: 2px solid black;
+
+}
+
+.card .cardImage{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    width: 300px;
+    height: 470px;
+    gap: 20px;
+    width: 100vw;
+    margin: 12px;
+
+}
+.card-item{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.card-item .cardImage{
+    width: 100%;
+    height: auto;
+}
